@@ -1,0 +1,49 @@
+/* Navbar Logo Customization */
+.navbar-brand img {
+  height: 50px;
+  width: auto;
+}
+
+/* Navbar Hover Effect */
+.nav-link {
+  color: black;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #2e6213;
+}
+
+/* Button Hover Effects */
+.btn-success:hover {
+  background-color: rgba(51, 177, 127, 0.8);
+  color: white;
+}
+
+.btn-outline-dark:hover {
+  background-color: black;
+  color: white;
+}
+
+/*█▀▄▀█ █▀▀ █▄░█ █░█   █▀▄ █▀▀ █▀ █▀█ █░░ █▀▀ █▀▀ ▄▀█ █▄▄ █░░ █▀▀*/
+/*█░▀░█ ██▄ █░▀█ █▄█   █▄▀ ██▄ ▄█ █▀▀ █▄▄ ██▄ █▄█ █▀█ █▄█ █▄▄ ██▄*/
+
+.custom-dropdown-menu {
+  position: absolute;
+  min-width: 220px;
+  padding: 8px 0;
+  margin-top: 12px;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+  z-index: 1000;
+}
+.user-menu-button {
+  padding: 8px 16px;
+  font-size: 1rem;
+  min-width: 110px;
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+}

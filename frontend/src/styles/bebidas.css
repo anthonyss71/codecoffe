@@ -1,0 +1,6 @@
+/* Responsividad adicional para ajustar márgenes */
+@media (max-width: 768px) {
+  .card-body p {
+    margin-bottom: 60px;
+  }
+}

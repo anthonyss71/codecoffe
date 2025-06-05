@@ -1,0 +1,13 @@
+/* Mantener efectos de hover en las tarjetas */
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Botón de comprar */
+.btn-success:hover {
+  background-color: #005a36;
+  transform: translateY(-3px);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}

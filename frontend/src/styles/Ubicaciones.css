@@ -1,0 +1,15 @@
+/* Botones de entrega */
+.btn-success:hover {
+  background-color: #005a36;
+}
+
+.btn-outline-success:hover {
+  background-color: #00704a;
+  color: white;
+}
+
+/* Mapa */
+iframe {
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
