@@ -1,0 +1,16 @@
+/* Ajustes de Logo */
+.img-fluid {
+  max-width: 100px;
+}
+
+/* Hover para botones */
+.btn-success:hover {
+  background-color: #005a36;
+  transform: translateY(-2px);
+}
+
+/* Feedback de error */
+.invalid-feedback {
+  font-size: 0.8rem;
+  color: red;
+}
